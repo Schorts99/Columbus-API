@@ -1,0 +1,16 @@
+en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            role:
+              unauthorized: You do not have permission to access this resource
+        product:
+          attributes:
+            stock:
+              insufficient: sold out
+        checkout:
+          attributes:
+            base:
+              insufficient_stock: There's no enough stock to complete with your order

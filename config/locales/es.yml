@@ -1,0 +1,18 @@
+es:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: ya se encuentra registrado
+            role:
+              unauthorized: No tienes permiso para acceder a este recurso
+        product:
+          attributes:
+            stock:
+              insufficient: agotado
+        checkout:
+          attributes:
+            base:
+              insufficient_stock: No hay stock suficiente para completar tu pedido

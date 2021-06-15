@@ -1,0 +1,6 @@
+es:
+  concerns:
+    errors:
+      format:
+        only_letters: Sólo se permiten letras
+        password: Debe tener al menos 1 carácter alfabético en minúscula, 1 carácter alfabético en mayúscula, 1 carácter numérico, 1 carácter especial y una longitud mínima de 8 caracteres

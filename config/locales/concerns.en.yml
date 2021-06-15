@@ -1,0 +1,6 @@
+en:
+  concerns:
+    errors:
+      format:
+        only_letters: Only letters are allowed
+        password: Should have at least 1 lowercase alphabetic character, 1 uppercase alphabetic character, 1 numeric character, 1 special character and a minimum length of 8 characters
