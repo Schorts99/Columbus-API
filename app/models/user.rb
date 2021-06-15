@@ -11,7 +11,7 @@ class User < ApplicationRecord
 
   validates :name, presence: true, only_letters: true
   validates :email, presence: true, uniqueness: true
-  validates :password, presence: true, password: true
+  validates :password, presence: true, length: { in: 6..20 }
   validates :age, presence: true, numericality: { only_integer: true, greather_than: 18, minor_than: 100 }
   validates :sex, presence: true, inclusion: { in: %w[male female] }
 
